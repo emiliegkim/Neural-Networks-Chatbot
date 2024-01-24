@@ -1,0 +1,139 @@
+<!-- base.aml -->
+
+<aiml version="2.0">
+    <category>
+        <pattern>O QUE É UMA REDE NEURAL</pattern>
+        <template>Redes Neurais são técnicas computacionais que apresentam um modelo matemático inspirado na estrutura neural de organismos inteligentes e que adquirem conhecimento através da experiência.<br/>Uma grande rede neural artificial pode ter centenas ou milhares de unidades de processamento; já o cérebro de um mamífero pode ter muitos bilhões de neurônios.
+        
+        Fonte: Site de Redes Neurais Artificiais da USP - INSTITUTO DE CIÊNCIAS MATEMÁTICAS E DE COMPUTAÇÃO https://sites.icmc.usp.br/andre/research/neural/</template>
+    </category>
+    
+    <category>
+        <pattern>QUAIS AS PROPRIEDADES QUE O USO DE REDES NEURAIS OFERECE</pattern>
+        <template>1. Não linearidade.<br/>
+        2. Mapeamento de entrada-saída.<br/>
+        3. Adaptabilidade.<br/>
+        4. Resposta às evidências.<br/>
+        5. Informação Contextual.<br/>
+        6. Tolerância a falhas.<br/>
+        7. Implementação de VLSI.<br/>
+        8. Uniformidade de Análise e Design.<br/>
+        9. Analogia Neurobiológica.
+        
+        Fonte: HAYKIN, Simon. Redes neurais princípios e práticas. 2ª.ed. Hamilton: Bookman, 2007.</template>
+    </category>
+    
+    <category>
+        <pattern>QUAIS AS PRINCIPAIS ETAPAS NO DESENVOLVIMENTO DE APLICAÇÕES DE RNAS</pattern>
+        <template>1- Coleta de dados relativos ao problema 
+        2- Separação em conjunto de treinamento e um conjunto de testes
+        3- Configuração da rede
+        4- Treinamento da rede
+        5- Teste
+        6- Integração 
+
+        Fonte: Site de Redes Neurais Artificiais da USP - INSTITUTO DE CIÊNCIAS MATEMÁTICAS E DE COMPUTAÇÃO https://sites.icmc.usp.br/andre/research/neural/</template>
+    </category>
+    
+    <category>
+        <pattern>QUAIS SÃO OS COMPONENTES BÁSICOS DE UMA REDE NEURAL</pattern>
+        <template>Neurônio: unidade computacional básica da rede<br/>
+        Arquitetura: estrutura topológica de como os neurônios são conectados<br/>
+        Aprendizagem: processo que adapta a rede de modo a computar uma função desejada ou realizar uma tarefa
+        
+        Fonte: "Inteligência Artificial: uma abordagem de aprendizado de máquina", de Kati
+Facelli, Ana Carolina Lorena, João Gama e André C.P.L.F. de Carvalho
+Com complementação dos slides do livro “Introduction to Data Mining”, de
+Tan, Steinbach e Kumar </template>
+    </category>
+    
+    <category>
+        <pattern>UNIDADES DE PROCESSAMENTO DE UMA REDE NEURAL</pattern>
+        <template>Uma rede neural artificial é composta por várias unidades de processamento, cujo funcionamento é bastante simples. Essas unidades, geralmente são conectadas por canais de comunicação que estão associados a determinado peso. As unidades fazem operações apenas sobre seus dados locais, que são entradas recebidas pelas suas conexões.<br/>O comportamento inteligente de uma Rede Neural Artificial vem das interações entre as unidades de processamento da rede.
+        
+        Fonte: Site de Redes Neurais Artificiais da USP - INSTITUTO DE CIÊNCIAS MATEMÁTICAS E DE COMPUTAÇÃO https://sites.icmc.usp.br/andre/research/neural/</template>
+    </category>
+    
+    <category>
+        <pattern>QUAIS AS CAMADAS DE UMA DE REDE NEURAL</pattern>
+        <template>Usualmente as camadas são classificadas em três grupos:
+
+    Camada de Entrada: onde os padrões são apresentados à rede;
+    Camadas Intermediárias ou Escondidas: onde é feita a maior parte do processamento, através das conexões ponderadas; podem ser consideradas como extratoras de características;
+    Camada de Saída: onde o resultado final é concluído e apresentado.
+    
+    Fonte: Site de Redes Neurais Artificiais da USP - INSTITUTO DE CIÊNCIAS MATEMÁTICAS E DE COMPUTAÇÃO https://sites.icmc.usp.br/andre/research/neural/</template>
+    </category>
+    
+    <category>
+        <pattern>QUAL FOI O PRIMEIRO MODELO DE REDE NEURAL DA HISTÓRIA</pattern>
+        <template>O primeiro modelo de rede neural foi concebido por Warren McCulloch e Walter Pitts em 1943. Eles escreveram um artigo seminal sobre como os neurônios devem funcionar e, então, modelaram suas ideias criando uma rede neural simples com circuitos elétricos.
+        
+        Fonte: "Inteligência Artificial: uma abordagem de aprendizado de máquina", de Kati
+Facelli, Ana Carolina Lorena, João Gama e André C.P.L.F. de Carvalho
+Com complementação dos slides do livro “Introduction to Data Mining”, de
+Tan, Steinbach e Kumar.</template>
+    </category>
+    
+    <category>
+        <pattern>O QUE SÃO PESOS SINÁPTICOS</pattern>
+        <template>Os pesos sinápticos são números, positivos ou negativos, dando a força, ou eficácia, do acoplamento sináptico entre um neurônio que envia o sinal e o neurônio que o recebe.<br/>Quando o peso w de uma sinapse é positivo, ela é dita excitatória; quando ele é negativo, ela é dita inibitória.
+        
+        Fonte: Deep Learning in Neural Networks: An Overview</template>
+    </category>
+    
+    <category>
+        <pattern>COMO É CHAMADO O PROCEDIMENTO PARA REALIZAR O PROCESSO DE APRENDIZAGEM</pattern>
+        <template>O procedimento utilizado para realizar o processo de aprendizagem é chamado de “algoritmo de aprendizagem”, cuja função é modificar os pesos sinápticos da rede de uma forma ordenada para alcançar um objetivo de projeto desejado.
+        
+        Fonte: HAYKIN, Simon. Redes neurais princípios e práticas. 2ª.ed. Hamilton: Bookman, 2007.</template>
+    </category>
+    
+    <category>
+        <pattern>COMO UMA REDE NEURAL SE ASSEMELHA AO CÉREBRO</pattern>
+        <template>Uma rede neural é um processador maciçamente paralelamente distribuído constituído de unidades de processamento simples, que têm a propensão natural para armazenar conhecimento experimental e torná-lo disponível para o uso.<br/>Ela se assemelha ao cérebro em dois aspectos:<br/>
+   	 
+    	1. O conhecimento é adquirido pela rede a partir de seu ambiente através de um processo de aprendizagem.<br/>
+    	2. Forças de conexão entre neurônios, conhecidas como pesos sinápticos, são utilizadas para armazenar o conhecimento adquirido.
+    	
+    	Fonte: HAYKIN, Simon. Redes neurais princípios e práticas. 2ª.ed. Hamilton: Bookman, 2007.</template>
+    </category>
+    
+    <category>
+        <pattern>A APRENDIZAGEM NO CONTEXTO DE REDES NEURAIS</pattern>
+        <template>Aprendizagem é um processo pelo qual os parâmetros livres de uma rede neural são adaptados através de um processo de estimulação pelo ambiente no qual a rede está inserida.<br/>O tipo de aprendizagem é determinado pela maneira pela qual a modificação dos parâmetros ocorre.<br/><br/>Esta definição do processo de aprendizagem implica a seguinte seqüência de eventos:<br/><br/>
+        1- A rede neural é estimulada por um ambiente.<br/>
+        2- A rede neural sofre modificações nos seus parâmetros livres como resultado desta estimulação.<br/>
+        3- A rede neural responde de uma maneira nova ao ambiente, devido às modificações ocorridas na sua estrutura interna.
+        
+        Fonte: HAYKIN, Simon. Redes neurais princípios e práticas. 2ª.ed. Hamilton: Bookman, 2007.</template>
+    </category>
+    
+    <category>
+        <pattern>COMPONENTES EM UM NEURÔNIO MATEMÁTICO</pattern>
+        <template>Sinais de entrada: São os sinais externos normalmente normalizados para incrementar a eficiência computacional dos algoritmos de aprendizagem.<br/>
+Pesos sinápticos: São valores para ponderar os sinais de cada entrada da rede. Esses valores são aprendidos durante o treinamento.<br/>
+Combinador linear: Agregar todos sinais de entrada que foram ponderados pelos respectivos pesos sinápticos a fim de produzir um potencial de ativação.<br/>
+Limiar de ativação: Específica qual será o patamar apropriado para que o resultado produzido pelo combinador linear possa gerar um valor de disparo de ativação.<br/>
+Potencial de ativação: É o resultado obtido pela diferença do valor produzido entre o combinador linear e o limiar de ativação. Se o valor for positivo, então o neurônio produz um potencial excitatório; caso contrário, o potencial será inibitório.<br/>
+Função de ativação: Seu objetivo é limitar a saída de um neurônio em um intervalo de valores.<br/>
+Sinal de saída: É o valor final de saída podendo ser usado como entrada de outros neurônios que estão sequencialmente interligados.
+
+Fonte: HAYKIN, Simon. Redes neurais princípios e práticas. 2ª.ed. Hamilton: Bookman, 2007.</template>
+    </category>
+    
+    
+     <category>
+        <pattern>EXEMPLOS DE APLICAÇÕES DE REDES NEURAIS</pattern>
+     <template>As redes neurais podem ter aplicação no reconhecimento de padrões de imagem, áudio e vídeo, na análise de linguagem natural, análise de imagens médicas em busca de sinais de anomalias, em aerofotogrametria para monitoramento de florestas e plantações, no planejamento de tráfego urbano, na análise de grandes volumes de documentos à procura de informações valiosas, no reconhecimento de fala e na tradução automática de vídeos, na otimização de processos e de estruturas (como na criação de novos fármacos) e em muitas outras aplicações.
+     
+     Fonte: INSPER - https://www.insper.edu.br/noticias/da-analise-de-imagens-ao-reconhecimento-de-falas-as-redes-neurais-tem-vasta-aplicacao-na-vida-moderna/
+</template>
+     </category>
+    
+    
+    <!-- Adicione mais categorias AIML conforme necessário -->
+</aiml>
+
+
+
